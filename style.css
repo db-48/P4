@@ -30,6 +30,7 @@ span {
 .homeWords h2{
    text-align:center;
    color:#f9004d;
+   font-weight: bold;
 
 }
 .homeWords{
@@ -72,8 +73,17 @@ span {
 
 
 /* This is safety.html */
-.safetyWords h2{
+.safetyWords h1{
    text-align:center;
+   color: #f9004d;
+}
+.safetyWords .first{
+   color: #f9004d;
+   font-style: italic;
+}
+.safetyWords h4{
+   color: #f9004d;
+   font-weight: bold;
 }
 .safetyWords{
    text-align:center;
@@ -85,18 +95,23 @@ span {
 .faq h1{
    text-align:center;
    color: #f9004d;
+   font-weight: bold;
 
 }
 .faq{
    background-color: hsla(0, 11%, 7%, 0.36);
    padding: 50px 10px;
    color: white;
+   margin-right: 120px;
+   margin-left:50px;
 
 }
 .answer{
+   color:white;
+}
+.questions{
    color:#f9004d;
 }
-
 
 
 /* This is contact.html */
