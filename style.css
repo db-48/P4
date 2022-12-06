@@ -1,0 +1,123 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+   font-family:garamond;
+}
+body{
+   background: url(https://wallpapermemory.com/uploads/206/garden-background-1080p-396957.jpg);
+   background-position: center;
+   background-size: cover;
+}
+/* This is index.html */
+#carouselExampleControls .carousel-inner{
+   display: block;
+   margin: 90px auto;
+   width: 50%;
+
+}
+.homeWords h2{
+   text-align:center;
+}
+.homeWords{
+   text-align:center;
+   background-color: hsla(0, 11%, 7%, 0.36);
+   padding: 50px 10px;
+   color: white;
+}
+
+/* This is descriptions.html */
+
+.card{
+   margin-top:90px;
+}
+.card .card-body {
+   text-align: center;
+   background-color: black;
+   color: red;
+}
+/* This is safety.html */
+
+
+/* This is faq.html */
+
+
+
+
+
+/* This is contact.html */
+.contact{
+
+   max-width: 700px;
+   width: 100%;
+   background-color: hsla(0, 11%, 7%, 0.36);
+   padding: 25px 30px;
+   border-radius: 5px;
+
+}
+.contact .title{
+   color:rgb(9, 53, 5);
+   text-align: center;
+   margin: 0;
+   margin-bottom: 40px;
+   font-size:40px;
+   font-weight:bold;
+   font-family:'Libre Baskerville', serif;
+}
+.name{
+   margin-bottom:10px;
+}
+
+.name label{
+   color:white;
+   font-weight: lighter;
+   font-size:1.5em;
+   margin-right:77px;
+}
+.email{
+   margin-bottom:10px;
+}
+
+.email label{
+   color:white;
+   font-weight: lighter;
+   font-size:1.5em;
+   margin-right:77px;
+}
+.subject{
+   margin-bottom:10px;
+}
+.subject label{
+   color:white;
+   font-weight: lighter;
+   font-size:1.5em;
+   margin-right:62px;
+}
+.message{
+   margin-bottom:10px;
+}
+.message label{
+   color:white;
+   font-weight: lighter;
+   font-size:1.5em;
+   margin-right:51px;
+}
+.message #msgBox{
+   height:100px;
+}
+button{
+   float: right;
+   padding: 9px 9px;
+   background: hsla(39, 79%, 28%, 0.808);
+   color:rgb(177, 250, 181);
+   border-radius:5px;
+   font-size: medium;
+}
+/*Footer*/
+footer{
+   marign-top:90px;
+   text-align:center;
+   background-color: black;
+   padding: 25px 10px;
+   color: white;
+}
