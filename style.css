@@ -5,9 +5,8 @@
    font-family:garamond;
 }
 body{
-   background-image: url(img/background.jpeg);
-   background-position: center;
-   background-size: cover;
+   background-color: whitesmoke;
+
 }
 /* This is index.html */
 #carouselExampleControls .carousel-inner{
@@ -25,22 +24,44 @@ body{
    padding: 50px 10px;
    color: white;
 }
-
-/* This is descriptions.html */
-
 .card{
    margin-top:90px;
+   margin-left:50px;
 }
 .card .card-body {
    text-align: center;
-   background-color: black;
-   color: red;
+   background-color: whitesmoke;
+   color: #440606;
 }
-/* This is safety.html */
+/* This is descriptions.html */
+.row{
+   margin:90px;
+}
+.descriptionWords{
+   margin-top: 90px;
+}
 
+/* This is safety.html */
+.safetyWords h2{
+   text-align:center;
+}
+.safetyWords{
+   text-align:center;
+   background-color: hsla(0, 11%, 7%, 0.36);
+   padding: 50px 10px;
+   color: white;
+}
 
 /* This is faq.html */
-
+.faq h1{
+   text-align:center;
+}
+.faq{
+   text-align:center;
+   background-color: hsla(0, 11%, 7%, 0.36);
+   padding: 50px 10px;
+   color: white;
+}
 
 
 
@@ -56,7 +77,7 @@ body{
 
 }
 .contact .title{
-   color:rgb(9, 53, 5);
+   color: black;
    text-align: center;
    margin: 0;
    margin-bottom: 40px;
@@ -74,15 +95,20 @@ body{
    font-size:1.5em;
    margin-right:77px;
 }
+.name #complete_name{
+   width: 300px;
+}
 .email{
    margin-bottom:10px;
 }
-
 .email label{
    color:white;
    font-weight: lighter;
    font-size:1.5em;
    margin-right:77px;
+}
+.email #emailAdd{
+   width: 300px;
 }
 .subject{
    margin-bottom:10px;
@@ -92,6 +118,9 @@ body{
    font-weight: lighter;
    font-size:1.5em;
    margin-right:62px;
+}
+.subject #subLine{
+   width: 300px;
 }
 .message{
    margin-bottom:10px;
@@ -103,13 +132,14 @@ body{
    margin-right:51px;
 }
 .message #msgBox{
-   height:100px;
+   height:200px;
+   width:500px;
 }
 button{
-   float: right;
+   float:right;
    padding: 9px 9px;
-   background: hsla(39, 79%, 28%, 0.808);
-   color:rgb(177, 250, 181);
+   background: hsla(0, 11%, 7%, 0.36);
+   color: rgb(255, 255, 255);
    border-radius:5px;
    font-size: medium;
 }
