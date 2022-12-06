@@ -4,9 +4,7 @@
    box-sizing: border-box;
    font-family:sans-serif;
 }
-body{
-   background-color: black;
-}
+
 /* This is index.html */
 .center {
    display: block;
@@ -97,11 +95,17 @@ span {
 
 
 /* This is contact.html */
+.box{
+   background-image: url("../img/contact1.JPG");
+   background-repeat: no-repeat;
+   background-position: right;
+
+}
 .contact{
    margin: 120px 360px 90px;
    max-width: 700px;
    width: 100%;
-   background-color: hsla(0, 32%, 71%, 0.36);
+   background-color: hsla(0, 1%, 70%, 0.36);
    padding: 25px 30px;
    border-radius: 5px;
 
@@ -110,7 +114,6 @@ span {
 .contact .title{
    color: #f9004d;
    text-align: center;
-
    font-size:40px;
    font-weight:bold;
    font-family:'Libre Baskerville', serif;
@@ -120,7 +123,7 @@ span {
 }
 
 .name label{
-   color:white;
+   color:black;
    font-weight: lighter;
    font-size:1.5em;
    margin-right:77px;
@@ -132,7 +135,7 @@ span {
    margin-bottom:10px;
 }
 .email label{
-   color:white;
+   color:black;
    font-weight: lighter;
    font-size:1.5em;
    margin-right:82px;
@@ -144,7 +147,7 @@ span {
    margin-bottom:10px;
 }
 .subject label{
-   color:white;
+   color:black;
    font-weight: lighter;
    font-size:1.5em;
    margin-right:58px;
@@ -156,7 +159,7 @@ span {
    margin-bottom:10px;
 }
 .message label{
-   color:white;
+   color:black;
    font-weight: lighter;
    font-size:1.5em;
    margin-right:51px;
