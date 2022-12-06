@@ -2,44 +2,76 @@
    margin:0;
    padding:0;
    box-sizing: border-box;
-   font-family:garamond;
+   font-family:sans-serif;
 }
 body{
-   background-color: whitesmoke;
-
+   background-color: black;
 }
 /* This is index.html */
-#carouselExampleControls .carousel-inner{
+.center {
    display: block;
-   margin: 90px auto;
-   width: 50%;
-
+   margin-top: .5px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 60%;
 }
+span {
+   color:#f9004d;
+}
+.navbar{
+   background-color: black;
+   padding-top:20px;
+}
+.navbar .nav-item{
+   padding: 10px 25px;
+}
+.navbar .nav-item a:hover{
+   color:#f9004d;
+}
+
 .homeWords h2{
    text-align:center;
+   color:#f9004d;
+
 }
 .homeWords{
+   font-size: large;
    text-align:center;
-   background-color: hsla(0, 11%, 7%, 0.36);
-   padding: 50px 10px;
+   padding: 30px 10px;
    color: white;
+
 }
 .card{
-   margin-top:90px;
-   margin-left:50px;
+   border-style: none;
+   margin-bottom:90px;
+
+}
+.card .card-title{
+   color:#f9004d;
 }
 .card .card-body {
    text-align: center;
-   background-color: whitesmoke;
-   color: #440606;
+   background-color: black;
+   color:white;
+}
+.card .btn{
+   background-color:#f9004d;
+   border-color: darkred;
+
 }
 /* This is descriptions.html */
 .row{
-   margin:90px;
+   margin:50px;
+}
+.descriptionWords h1{
+   text-align: center;
+   color:#f9004d;
 }
 .descriptionWords{
-   margin-top: 90px;
+   margin-top: 40px;
+   color:white;
 }
+
 
 /* This is safety.html */
 .safetyWords h2{
@@ -47,7 +79,6 @@ body{
 }
 .safetyWords{
    text-align:center;
-   background-color: hsla(0, 11%, 7%, 0.36);
    padding: 50px 10px;
    color: white;
 }
@@ -68,19 +99,19 @@ body{
 
 /* This is contact.html */
 .contact{
-
+   margin: 120px 360px 90px;
    max-width: 700px;
    width: 100%;
-   background-color: hsla(0, 11%, 7%, 0.36);
+   background-color: hsla(0, 32%, 71%, 0.36);
    padding: 25px 30px;
    border-radius: 5px;
 
+
 }
 .contact .title{
-   color: black;
+   color: #f9004d;
    text-align: center;
-   margin: 0;
-   margin-bottom: 40px;
+
    font-size:40px;
    font-weight:bold;
    font-family:'Libre Baskerville', serif;
@@ -105,7 +136,7 @@ body{
    color:white;
    font-weight: lighter;
    font-size:1.5em;
-   margin-right:77px;
+   margin-right:82px;
 }
 .email #emailAdd{
    width: 300px;
@@ -117,7 +148,7 @@ body{
    color:white;
    font-weight: lighter;
    font-size:1.5em;
-   margin-right:62px;
+   margin-right:58px;
 }
 .subject #subLine{
    width: 300px;
@@ -136,9 +167,9 @@ body{
    width:500px;
 }
 button{
-   float:right;
+   float:relative;
    padding: 9px 9px;
-   background: hsla(0, 11%, 7%, 0.36);
+   background: #f9004d;
    color: rgb(255, 255, 255);
    border-radius:5px;
    font-size: medium;
