@@ -127,7 +127,7 @@ span {
 
 /* This is contact.html */
 .box{
-   background-image: url("../img/contact1.JPG");
+   background-image: url(/img/contact1.jpg);
    background-repeat: no-repeat;
    background-position: right;
 
@@ -200,7 +200,7 @@ span {
    width:500px;
 }
 button{
-   float: relative;
+   float: left;
    padding: 9px 9px;
    background: #f9004d;
    color: rgb(255, 255, 255);
