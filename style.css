@@ -2,10 +2,13 @@
    margin:0;
    padding:0;
    box-sizing: border-box;
+
 }
 body {
    font-family: "Trirong", serif;
+
 }
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 /* This is index.html */
 .center {
    display: block;
@@ -13,6 +16,7 @@ body {
    margin-left: auto;
    margin-right: auto;
    width: 60%;
+   font-size: large;
 }
 span {
    color:#f9004d;
@@ -20,6 +24,7 @@ span {
 .navbar{
    background-color: black;
    padding-top:10px;
+   font-size: large;
 }
 .navbar .nav-item{
    padding: 10px 25px;
@@ -39,6 +44,7 @@ span {
    text-align:center;
    padding: 30px 10px;
    color: white;
+
 
 }
 .card{
@@ -66,10 +72,12 @@ span {
 .descriptionWords h1{
    text-align: center;
    color:#f9004d;
+   font-weight: bold;
 }
 .descriptionWords{
    margin-top: 40px;
    color:white;
+   font-size: large;
 }
 
 
@@ -90,6 +98,7 @@ span {
    text-align:center;
    padding: 5px 10px;
    color: white;
+   font-size: large;
 }
 
 /* This is faq.html */
@@ -105,6 +114,7 @@ span {
    color: white;
    margin-right: 120px;
    margin-left:50px;
+   font-size: large;
 
 }
 .answer{
@@ -159,7 +169,7 @@ span {
    color:black;
    font-weight: lighter;
    font-size:1.5em;
-   margin-right:82px;
+   margin-right:77px;
 }
 .email #emailAdd{
    width: 300px;
@@ -171,7 +181,7 @@ span {
    color:black;
    font-weight: lighter;
    font-size:1.5em;
-   margin-right:58px;
+   margin-right:63px;
 }
 .subject #subLine{
    width: 300px;
