@@ -128,7 +128,7 @@ span {
 
 /* This is contact.html */
 .box{
-   background-image: url(/img/contact1.jpg);
+   background-image: url("img/contact1.jpg");
    background-repeat: no-repeat;
    background-position: right;
 
